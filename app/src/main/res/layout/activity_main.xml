@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight = "1"
+        android:src = "@drawable/horoscope"
+        android:scaleType="centerCrop"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Ky Li!"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/White"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From, Yours Truely"
+        android:textStyle="bold|italic"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/White"
+        android:layout_margin="20dp"
+        />
+
+
+</RelativeLayout>
